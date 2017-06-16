@@ -16,7 +16,9 @@
         android:inputType="textPersonName"
         android:textSize="12sp"
         android:focusable="true"
-        android:visibility="gone"><requestFocus/></EditText>
+        android:visibility="gone"
+        android:layout_marginLeft="5dp"
+        android:layout_alignRight="@+id/lvMain"><requestFocus/></EditText>
 
     <LinearLayout
         android:id="@+id/llFilter"
@@ -31,7 +33,8 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:layout_marginTop="5dp"
-            android:layout_weight="2" />
+            android:layout_weight="2"
+            android:layout_marginRight="5dp" />
 
         <Spinner
             android:id="@+id/spSort"
@@ -39,7 +42,8 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:layout_marginTop="5dp"
-            android:layout_weight="2" />
+            android:layout_weight="2"
+            android:layout_marginRight="5dp" />
 
     </LinearLayout>
 
@@ -64,7 +68,9 @@
         android:layout_marginEnd="5dp"
         android:background="@drawable/circle_button_green"
         android:onClick="onClickButton"
-        android:text="@string/add_button" />
+        android:text="@string/add_button"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:id="@+id/btnDel"
@@ -77,6 +83,8 @@
         android:background="@drawable/circle_button_red"
         android:onClick="onClickButton"
         android:text="@string/del_button"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>
