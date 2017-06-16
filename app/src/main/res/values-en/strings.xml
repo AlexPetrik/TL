@@ -29,12 +29,12 @@
     <string name="exit">Quit: Are your sure?</string>
 
     <string-array name="sorts">
-        <item>Без сортировки</item>
+        <item>No sort</item>
         <item>deadline</item>
         <item>caption</item>
     </string-array>
     <string-array name="typesFilter">
-        <item>Без фильтра</item>
+        <item>No filter</item>
         <item>Note</item>
         <item>Task</item>
     </string-array>

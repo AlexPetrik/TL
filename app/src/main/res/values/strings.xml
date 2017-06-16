@@ -28,12 +28,12 @@
     <string name="exit">Выход: Вы уверены?</string>
 
     <string-array name="sorts" tools:ignore="MissingTranslation">
-        <item>No sort</item>
+        <item>Без сортировки</item>
         <item>deadline</item>
         <item>caption</item>
     </string-array>
     <string-array name="typesFilter" tools:ignore="MissingTranslation">
-        <item>No filter</item>
+        <item>Без фильтра</item>
         <item>Note</item>
         <item>Task</item>
     </string-array>
